@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Dark" />
+
+    <Button
+        android:id="@+id/btnLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Light" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/shariq1"
+         />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="116dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:text="Saumya is a Software Engineer, Influencer, and Educator.
+For collabs, speaker invitations, orientation events, and seminars: saumyatheengineer@gmail.com, workwithsaumyasingh@gmail.com
+
+She will help you monetize your presence on the internet. Start taking Personal Branding seriously if you want to thrive in your career and life. She will help you shine and grow in your entrepreneurship journey. Book a 1:1 call with Saumya to understand all about personal branding: https://topmate.io/saumya1singh/647455
+
+
+She has good experience in coding, development (android) and leadership roles.
+She has been honored with the International Women In Opensource Academic Award 2020 as a finalist based on her leadership qualities, community involvement and contributions.
+She has good experience in mentoring students ( GCI Mentor, guided open-source enthusiasts for GSoC at KWOC'19 (IIT-Kharagpur Initiative ) and much more.
+Saumya has been Developer Advocate and Content Creator at AnitaB.org open-source teams.
+She has been winner and runner-up of 7+ hackathons from Smart India Hackathon 2019(India’s Biggest Hackathon that involves 2 Lakh+ students) to Delhi Police Hackathon 2019.
+" />
+    </ScrollView>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/shariq1"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Go to Second Screen" />
+</LinearLayout>
